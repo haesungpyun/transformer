@@ -1,13 +1,11 @@
 """
-@author : Hyunwoong
-@when : 2019-10-25
-@homepage : https://github.com/gusdnd852
+All the lines are forked from https://github.com/hyunwoongko/transformer
 """
 
 import torch.nn as nn
 
-from transformer.embedding.token_embedding import TokenEmbedding
-from transformer.embedding.positional_encoding import PostionalEncoding
+from Transformer.embedding.token_embedding import TokenEmbedding
+from Transformer.embedding.positional_encoding import PostionalEncoding
 
 
 class TransformerEmbedding(nn.Module):

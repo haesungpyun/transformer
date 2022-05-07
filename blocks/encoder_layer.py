@@ -1,14 +1,12 @@
 """
-@author : Hyunwoong
-@when : 2019-10-22
-@homepage : https://github.com/gusdnd852
+All the lines are forked from https://github.com/hyunwoongko/transformer
 """
 
 from torch import nn
 
-from transformer.layers.position_wise_feed_forward import PositionWiseFeedForward
-from transformer.layers.layer_norm import LayerNorm
-from transformer.layers.multi_head_attention import MultiHeadAttention
+from Transformer.layers.layer_norm import LayerNorm
+from Transformer.layers.multi_head_attention import MultiHeadAttention
+from Transformer.layers.position_wise_feed_forward import PositionWiseFeedForward
 
 class EncoderLayer(nn.Module):
 

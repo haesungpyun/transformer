@@ -1,12 +1,10 @@
 """
-@author : Hyunwoong
-@when : 2019-10-25
-@homepage : https://github.com/gusdnd852
+All the lines are forked from https://github.com/hyunwoongko/transformer
 """
 
 from torch import nn
 
-from transformer.layers.scale_dot_product_attention import ScaleDotProductAttention
+from Transformer.layers.scale_dot_product_attention import ScaleDotProductAttention
 
 
 class MultiHeadAttention(nn.Module):
